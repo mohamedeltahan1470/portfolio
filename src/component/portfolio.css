@@ -1,0 +1,31 @@
+.portfolio-title h2 {
+  font-size: 50px;
+  padding: 30px;
+  margin-left: 40px;
+}
+.portfolio-content {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  width: 70%;
+  margin: 0 auto;
+  gap: 40px;
+  justify-content: space-evenly;
+}
+.portfolio-content div {
+  width: 400px;
+  height: 300px;
+  font-size: 40px;
+  text-align: center;
+  align-content: center;
+  color: whitesmoke;
+}
+hr {
+  width: 40%;
+}
+.div-color {
+    background-color:#766f5e;
+}
+.div-color2 {
+  background-color: #262626;
+}

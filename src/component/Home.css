@@ -1,0 +1,34 @@
+.home{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(to right , black , rgb(56, 56, 56) , black);
+    height: 600px;
+}
+.home-content{
+    text-align: center;
+    align-content: center;
+}
+.home-content h1 , p{
+    font-size: 60px;
+    color: whitesmoke;
+}
+.home-content button{
+    font-size: 25px;
+    padding: 15px 20px;
+    color: whitesmoke;
+    background-image: linear-gradient(to right , black , rgb(18, 18, 18) , black);
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 3px;
+}
+.home-content button:hover{
+    scale: 1.1;
+}
+.home-img{
+    align-content: center;
+}
+.home-img img{
+    height: 550px;
+   border-radius: 50%;
+}

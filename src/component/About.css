@@ -1,0 +1,33 @@
+.about{
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+}
+.about-title {
+    width: 30%;
+    text-align: center;
+    align-content: center;
+}
+.about-title h2{
+    font-size: 50px;
+}
+.about-content{
+    width: 70%;
+    align-content: center;
+}
+.about-content p{
+font-size: 30px;
+color: black;
+}
+.about-content button{
+    font-size: 30px;
+    padding: 15px;
+    background-color: rgb(42, 42, 42);
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+.about-content button:hover{
+  scale: 1.1;
+}
